@@ -1,0 +1,56 @@
+.heading {
+    margin-top: 100px;
+}
+
+.heading p {
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+
+.heading h1 {
+    margin-top: 100px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.heading h1:after,
+.heading h1:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    height: 5px;
+    background-color: #f8c053;
+}
+
+.clubs img {
+    width: 400px;
+    height: 250px;
+    float: left;
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    border-radius: 3%;
+    border: 3px solid black;
+}
+
+.content {
+    text-align: left;
+    font-size: 2rem;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 4%;
+    line-height: 45px;
+}
