@@ -9,32 +9,32 @@
 }
 
 .heading h1 {
-    margin-top: 100px;
+    margin-top: 100px !important;
     color: black;
-    font-weight: bolder;
+    font-weight: bolder !important;
     text-align: center;
     font-size: 80px;
     font-weight: 300;
     letter-spacing: 1px;
     text-transform: uppercase;
     display: grid;
-    grid-template-columns: 1fr max-content 1fr;
+    grid-template-columns: 1fr max-content 1fr !important;
     grid-template-rows: 27px 0;
-    grid-gap: 20px;
+    grid-gap: 20px !important;
     align-items: center;
 }
 
 .heading h1:after,
 .heading h1:before {
     content: " ";
-    display: block;
+    display: block !important;
     border-bottom: 1px solid white;
     border-top: 1px solid white;
     height: 5px;
     background-color: #f8c053;
 }
 
-.clubs img {
+.Image img {
     width: 400px;
     height: 250px;
     float: left;
@@ -43,14 +43,30 @@
     margin-right: 4%;
     margin-bottom: 2%;
     border-radius: 3%;
-    border: 3px solid black;
+    border: 5px solid #f8c053;
 }
 
 .content {
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-top: 3%;
     margin-left: 3%;
     margin-right: 4%;
     line-height: 45px;
+}
+
+.ICONIC {
+    width: 80%;
+}
+
+.row1-icons {
+    padding-bottom: 2px;
+    text-align: center;
+    color: #424242;
+    font-size: 1.2rem;
+    margin: 150px;
+}
+
+.col-sm-2 {
+    margin-left: 200px;
 }
