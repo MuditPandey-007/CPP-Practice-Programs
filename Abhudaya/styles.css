@@ -1,49 +1,121 @@
-.heading {
-    margin-top: 100px;
+* {
+    box-sizing: border-box;
 }
 
-.heading p {
+.BG {
+    background: Lightpink;
+}
+
+.BG h1 {
     text-align: center;
-    padding-bottom: 5px;
+    font-size: 40px;
+}
+
+.xyz h2 {
+    margin-left: 50px;
+}
+
+.row {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.column img {
+    border: solid;
+    color: grey;
+}
+
+.column {
+    flex: 30%;
+    padding: 10px;
+    border: solid 2px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.column p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.column h3 {
+    text-align: center;
     font-size: 30px;
 }
 
-.heading h1 {
-    margin-top: 100px !important;
-    color: black;
-    font-weight: bolder !important;
-    text-align: center;
-    font-size: 80px;
-    font-weight: 300;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    display: grid;
-    grid-template-columns: 1fr max-content 1fr !important;
-    grid-template-rows: 27px 0;
-    grid-gap: 20px !important;
-    align-items: center;
+
+/*Form*/
+
+.container {
+    outline-style: ridge;
+    outline-width: 1px;
+    outline-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-style: Sans-serif;
+    padding: 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 325px;
+    margin-right: 325px;
 }
 
-.heading h1:after,
-.heading h1:before {
-    content: " ";
-    display: block !important;
-    border-bottom: 1px solid white;
-    border-top: 1px solid white;
-    height: 5px;
-    background-color: #f8c053;
+input[type=text],
+input[type=date],
+input[type=number] {
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: black;
+    margin: 5px 0 22px 0;
+    width: 100%;
+    padding: 15px;
+}
+
+input[type=text]:focus,
+input[type=date]:focus,
+input[type=number]:focus {
+    background-color: white;
+    outline-style: double;
+}
+
+.registerbtn {
+    background-color: pink;
+    font-style: Sans-serif;
+    color: black;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 4;
+}
+
+.required {
+    color: red;
+}
+
+
+/*ABOUT US*/
+
+.about h1 {
+    text-align: center;
+    font-size: 50px;
+    background: lightpink;
 }
 
 .Image img {
-    width: 400px;
-    height: 250px;
+    width: 800px;
+    height: 500px;
     float: left;
     margin-left: 3%;
     margin-top: 1%;
     margin-right: 4%;
     margin-bottom: 2%;
     border-radius: 3%;
-    border: 5px solid #f8c053;
+    border: 5px solid black;
 }
 
 .content {
@@ -53,20 +125,4 @@
     margin-left: 3%;
     margin-right: 4%;
     line-height: 45px;
-}
-
-.ICONIC {
-    width: 80%;
-}
-
-.row1-icons {
-    padding-bottom: 2px;
-    text-align: center;
-    color: #424242;
-    font-size: 1.2rem;
-    margin: 150px;
-}
-
-.col-sm-2 {
-    margin-left: 200px;
 }
